@@ -1,0 +1,180 @@
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ede1c9;
+    color: #000000;
+}
+
+header {
+    background-color: #454eff;
+    color: #000000;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    max-width:1200px;
+    margin: 0 auto;
+    padding: 5px ;
+}
+
+
+nav {
+    background-color: #5470ff ;
+    padding: 10px ;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ffffff; 
+}
+
+section {
+    padding: 30px ;
+    text-align: center;
+}
+
+
+.project:hover {
+    transform: translateY(-5px);
+}
+
+.project {
+    background-color: #5470ff;
+    color: #000000;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgb(255, 255, 255);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.profile-image {
+    max-width: 50%;
+    border-radius: 10%; 
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgb(255, 255, 255);
+    
+}
+@media (max-width: 850px) {
+    .container,
+    .project
+    {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 808px) {
+    .container,
+    .project
+    {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 726px) {
+    .container,
+    .project
+    {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 631px) {
+    .container,
+    .project
+    {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 582px) {
+    .container,
+    .project
+     {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 536px) {
+    .container,
+    .project 
+    {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 502px) {
+    .container,
+    .project
+     {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 472px) {
+    .container,
+    .project
+     {
+        font-size: 7px;
+    }
+}
+
+@media (max-width: 440px) {
+    .container,
+    .project
+     {
+        font-size: 6px;
+    }
+}
+
+@media (max-width: 377px) {
+    .container,
+    .project
+     {
+        font-size: 5px;
+    }
+}
+
+@media (max-width: 347px) {
+    .container,
+    .project
+     {
+        font-size: 4px;
+    }
+}
+
+@media (max-width: 317px) {
+    .container,
+    .project
+     {
+        font-size: 3px;
+    }
+}
